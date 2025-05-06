@@ -1,0 +1,3 @@
+*.feature linguist-vendored=true
+*.edge linguist-vendored=true
+*.label linguist-vendored=true
