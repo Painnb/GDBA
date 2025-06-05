@@ -3,3 +3,4 @@
 *.label linguist-vendored=true
 *.npz linguist-vendored=true
 Datasets/flickr/flickr.feature filter=lfs diff=lfs merge=lfs -text
+gcorn/data/flickr/flickr.feature filter=lfs diff=lfs merge=lfs -text

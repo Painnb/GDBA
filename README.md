@@ -50,6 +50,16 @@ python main_random.py --dataset flickr --ptb_rate 0.2
 bash random.sh
 ```
 
+​     To run baseline, you need to remove (uncomment) the relevant baseline annotations in the main program and switch the model to the following:
+
+```bash
+python main_mettack.py --dataset acm --ptb_rate 0.05 --modelname GCN
+
+python main_dice.py --dataset blogcatalog --ptb_rate 0.1 --modelname GIN
+```
+
+
+
 ## Citing
 
 If you find our proposed GDBA useful for your research, please consider citing our paper.
