@@ -1,3 +1,5 @@
 *.feature linguist-vendored=true
 *.edge linguist-vendored=true
 *.label linguist-vendored=true
+*.npz linguist-vendored=true
+Datasets/flickr/flickr.feature filter=lfs diff=lfs merge=lfs -text
