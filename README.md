@@ -4,6 +4,12 @@
 
 This repository contains python codes and datasets necessary to run the proposed GDBA approach. GDBA is a defense approach designed to defend GNNs that the main idea of the paper consists of refining graph edges using the innovative unbiased attribute-augmented PPR and mutual information regularization. Please refer to our paper for additional specifications.
 
+## PIPELINE
+
+In main script uses the DeepRobust library to benchmark various graph defense methods under different global edge‐perturbation attack: it parses command-line arguments for random seed, dataset, perturbation rate, and chosen model/defense; loads and preprocesses the graph’s adjacency, features, and labels; applies the DICE attacker to generate a perturbed adjacency matrix; then trains and evaluates multiple defenses—including standard GCN, GNNGuard, GCN‐Jaccard, GCN‐SVD, RGCN, and MIGCN-in this paper by fitting each model on the attacked graph and measuring test accuracy; finally, it appends the results for each method and perturbation rate to a CSV file for easy comparison. All of the custom components introduced in this work—including mutual information regularization and graph refinement—are implemented in the `migcnppr.py` file under `deeprobust/graph/defense`.
+
+
+
 
 ## Requirements
 
