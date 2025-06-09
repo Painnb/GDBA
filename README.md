@@ -28,7 +28,7 @@ All these datasets are part of the torch_geometric or deeprobust datasets and ar
 ## Training and Evaluation
 To use our code, the user should first download the [DeepRobust](https://github.com/DSE-MSU/DeepRobust) package ( https://github.com/DSE-MSU/DeepRobust). Since we are using the [GNNGuard](https://github.com/mims-harvard/GNNGuard/tree/master) as a baseline, we are using the provided code from their official GitHub repository (https://github.com/mims-harvard/GNNGuard/tree/master).
 
-As explained in the GNNGuard's original code, some files need to be substituted in the original DeepRobust implementation in the folder "deeprobust/graph/defense" by the one provided in our implementation. The file "migcnppr.py" contains our proposed framework.
+As explained in the GNNGuard's original code, some files need to be substituted in the original DeepRobust implementation in the folder "deeprobust/graph/defense" by the one provided in our implementation. The file "migcnppr.py" contains our proposed framework which is on the deeprobust/graph/defense.
 
 
 To train and evaluate the model in the paper, the user should specify the following :
