@@ -22,7 +22,7 @@ For node classification, the used datasets are as follows:
 - UAI
 - Flickr
 
-All these datasets are part of the torch_geometric or deeprobust datasets and are directly downloaded when running the code.
+All these datasets are part of the torch_geometric or deeprobust datasets and are directly downloaded when running the code. We have also provided all datasets in the Datasets folder.
 
 
 ## Training and Evaluation
@@ -36,6 +36,10 @@ To train and evaluate the model in the paper, the user should specify the follow
 - Dataset : The dataset to be used
 
 - Budget: The budget of the attack
+
+- Modelname: The model used.
+
+Other parameters are kept at their default values under normal circumstances.
 
   To run some typical experiments, you can use the following codes:
 
